@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void){
+    int fuel, home;
+    int distance, test;
+    scanf("%d",&test);
+    for(int i=0;i<test;i++){
+        scanf("%d",&fuel);
+        scanf("%d",&home);
+        fuel=fuel*5;
+        distance=fuel-home;
+        if(distance>=0){
+            printf("yes\n");
+            
+        }else{
+            printf("no\n");
+        }
+    }
+
+	return 0;
+}
+
